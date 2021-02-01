@@ -15,8 +15,9 @@ function setup(){
     engine = Engine.create();
     world = engine.world;
 
-
+    //Added Ground
     ground = new Ground(600,height,1200,20);
+    //Added Platform
     platform = new Ground(150, 305, 300, 170);
 
     box1 = new Box(700,320,70,70);
