@@ -67,4 +67,5 @@ function draw(){
     bird.display();
     platform.display();
     chain.display();
+    log6.display();
 }
